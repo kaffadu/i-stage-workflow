@@ -1,0 +1,10 @@
+Install OpenJDK
+sudo apt update
+sudo apt install openjdk-17-jdk -y
+
+Verify the installation:
+java -version
+
+cd /opt
+sudo wget https://download.sonatype.com/nexus/3/nexus-unix-x86-64-3.78.2-04.tar.gz
+
